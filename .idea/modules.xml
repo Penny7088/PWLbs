@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HTLbs.iml" filepath="$PROJECT_DIR$/.idea/modules/HTLbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HTLbs.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HTLbs.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib-lbs/HTLbs.lib-lbs.iml" filepath="$PROJECT_DIR$/.idea/modules/lib-lbs/HTLbs.lib-lbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib-lbs-baidu/HTLbs.lib-lbs-baidu.iml" filepath="$PROJECT_DIR$/.idea/modules/lib-lbs-baidu/HTLbs.lib-lbs-baidu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib-lbs-google/HTLbs.lib-lbs-google.iml" filepath="$PROJECT_DIR$/.idea/modules/lib-lbs-google/HTLbs.lib-lbs-google.iml" />
+    </modules>
+  </component>
+</project>

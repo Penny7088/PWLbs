@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            allowInsecureProtocol = true
+            url 'http://maven.hellotalk8.com:8081/repository/hello-talk-android/'
+        }
+    }
+}
+rootProject.name = "HTLbs"
+include ':app'
+include ':lib-lbs'
+include ':lib-lbs-baidu'
+include ':lib-lbs-google'
