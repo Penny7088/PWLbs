@@ -15,7 +15,7 @@ import java.util.List;
  * com.hellotalk.lib.map.map
  *
  * @author : Penny (penny@hellotalk.com)
- * @describe :
+ * @describe : 接口实现类
  * @date : 4/2/21
  */
 public interface IBaseMapView {
@@ -104,6 +104,9 @@ public interface IBaseMapView {
      */
     void setMinMaxZoom(float min, float max);
 
+    /**
+     * 默认的zoom最佳视角
+     */
     void setBestZoom();
 
     /**

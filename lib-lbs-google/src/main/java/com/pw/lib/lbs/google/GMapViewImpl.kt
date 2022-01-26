@@ -30,6 +30,7 @@ import java.util.*
  * @date : 4/2/21
  */
 class GMapViewImpl : IBaseMapView {
+
     private val mConvertHelper: ConvertHelper
 
     /**

@@ -18,7 +18,8 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory
  * @date : 4/6/21
  */
 class GMapCustomMarker(context: Context?) : MapCustomMarker(context) {
-    fun fromView(context: Context?, view: View?): BitmapDescriptor {
+
+    private fun fromView(context: Context?, view: View?): BitmapDescriptor {
         val frameLayout = FrameLayout(context!!)
         frameLayout.addView(view)
         frameLayout.isDrawingCacheEnabled = true

@@ -98,12 +98,16 @@ class BaiduMapSupportFragment : Fragment() {
     }
 
     fun setMapType(type: Int) {
-        if (type == MapConstants.TYPE_MAP_NORMAL) {
-            mMap?.mapType = BaiduMap.MAP_TYPE_NORMAL
-        } else if (type == MapConstants.TYPE_MAP_SATELLITE) {
-            mMap?.mapType = BaiduMap.MAP_TYPE_SATELLITE
-        } else if (type == MapConstants.TYPE_MAP_MIX) {
-            mMap?.mapType = BaiduMap.MAP_TYPE_NORMAL
+        when (type) {
+            MapConstants.TYPE_MAP_NORMAL -> {
+                mMap?.mapType = BaiduMap.MAP_TYPE_NORMAL
+            }
+            MapConstants.TYPE_MAP_SATELLITE -> {
+                mMap?.mapType = BaiduMap.MAP_TYPE_SATELLITE
+            }
+            MapConstants.TYPE_MAP_MIX -> {
+                mMap?.mapType = BaiduMap.MAP_TYPE_NORMAL
+            }
         }
     }
 
